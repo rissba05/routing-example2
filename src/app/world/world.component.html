@@ -1,1 +1,9 @@
-<p>world works!</p>
+<h1>
+    {{ greetingSvc.greeting }}
+</h1>
+
+<button
+    (click)="greetingSvc.who = 'World'"
+>
+    World
+</button>
